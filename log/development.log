@@ -47,30 +47,3 @@ puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
 puma (3.11.2) lib/puma/server.rb:438:in `process_client'
 puma (3.11.2) lib/puma/server.rb:302:in `block in run'
 puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
-Started GET "/" for 42.61.24.14 at 2019-12-31 08:33:58 +0000
-  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-  ↳ /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
-Processing by WelcomeController#index as HTML
-  Rendering welcome/index.erb within layouts/application
-  Rendered welcome/index.erb within layouts/application (911.3ms)
-Completed 200 OK in 998ms (Views: 993.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 42.61.24.14 at 2019-12-31 08:42:40 +0000
-  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-  ↳ /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
-Processing by WelcomeController#index as HTML
-  Rendering welcome/index.erb within layouts/application
-  Rendered welcome/index.erb within layouts/application (112.8ms)
-Completed 200 OK in 136ms (Views: 131.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 42.61.24.14 at 2019-12-31 08:43:40 +0000
-  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-  ↳ /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
-Processing by WelcomeController#index as HTML
-  Rendering welcome/index.erb within layouts/application
-  Rendered welcome/index.erb within layouts/application (164.9ms)
-Completed 200 OK in 213ms (Views: 208.6ms | ActiveRecord: 0.0ms)
-
-
